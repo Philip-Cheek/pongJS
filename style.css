@@ -1,0 +1,90 @@
+*{
+	padding:0;
+	margin:0;
+}
+
+#container{
+
+}
+
+#testline{
+	width:100%;
+	height:.3em;
+	top:0em;
+	position:absolute;
+	/*background: black;*/
+}
+#bod{
+	width:10%;
+	height:10%;
+	border:1px solid black;
+}
+
+#board{
+   width: 90vw; /* 90% of viewport vidth */
+    height: 50.625vw; /* ratio = 9/16 * 90 = 50.625 */
+    background: pink;
+    max-height: 90vh;
+    max-width: 160vh; /* 16/9 * 90 = 160 */
+    margin: auto;
+    position: absolute;
+    top:0;bottom:0;
+    left:0;right:0;
+    overflow:hidden;
+  }
+
+.paddle{
+	width:1.6%;
+	height:17%;
+	background:black;
+}
+
+#gamecontain{
+	position:relative;
+	height:99.6%;
+	width:98%;
+	margin:0 auto;
+}
+
+#intersection{
+	margin: 0 auto;
+	height:99%;
+	width:0;
+	border-left:.25em dotted white;
+	border-right:.25em dotted white;;
+	margin-top:.25em;
+	margin-bottom:.5em;
+
+}
+
+#ball{
+	position: absolute;
+	width:1.8%;
+	height:3%;
+	border-radius:50%;
+	background: black;
+	top:1.5%;
+	left:8%;
+}
+#left{
+	position:absolute;
+	top:0;
+}
+
+#test{
+	width:1.76em;
+	height:1.76em;
+	border: solid black;
+}
+#proportin{
+	width:1.8%;
+	height:3%;
+	border-radius:50%;
+	border: solid black;
+}
+
+#right{
+	top:0;
+	position:absolute;
+	right:0;
+}
